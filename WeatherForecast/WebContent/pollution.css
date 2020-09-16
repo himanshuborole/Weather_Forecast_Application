@@ -1,0 +1,157 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-right: 1px;
+    
+}
+
+body{
+    font-family: 'montserrat',sans-serif;
+    background-image: url(images/fog2.jpg);
+   
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3));
+    
+    padding: 25px 50px 25px 50px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+header input{
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(30, 26, 48, 0.3);
+    border-radius: 16px 0 16px 0;
+    border-bottom: 3px solid rgba(19, 3, 90, 0.9);
+    color: #ece6e6;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+    margin-right: 20px;
+}
+
+::placeholder{
+color: #ddd;
+font-size: 15px;
+}
+
+main{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.location h3{
+     text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #000000;
+    
+    
+}
+.current h3{
+   text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.source {
+    text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #66FCF1;
+    text-shadow: 2px 2px 8px #000000;
+}
+.dateofmeasurement {
+    text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#66FCF1;
+    text-shadow: 2px 2px 8px #000000;
+}
+.aiqLevel {
+    text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #66FCF1;
+    text-shadow: 2px 2px 8px #000000;
+}
+.airQualityIndex {
+    text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #66FCF1;
+    text-shadow: 2px 2px 8px #000000;
+}
+.pm {
+    text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #66FCF1;
+    text-shadow: 2px 2px 8px #000000;
+}
+.pms {
+    text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #66FCF1;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

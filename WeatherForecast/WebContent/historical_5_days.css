@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box;
+  }
+body{
+    /*background-color: rgba(0, 0, 0, 0.9);*/
+    background-image: url(images/sunnrise.jpg);
+    background-size: cover;
+    background-position:top center;
+    background-attachment: fixed;
+}
+
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+header input{
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(21, 7, 83, 0.3);
+    border-radius: 16px 0 16px 0;
+    border-bottom: 3px solid rgba(19, 3, 90, 0.9);
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+     margin-right: 20px;
+}
+header input:focus{
+    background-color: rgba(255.255.255.0.6);
+}
+::placeholder{
+  color: #ddd;
+  font-size: 15px;
+}
+  
+  .services-section{
+    background-size: cover;
+    padding: 60px 0;
+  }
+  .inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+ /* .section-title{
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .border{
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+  }*/
+  .services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+ .service-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+    border-style: solid;
+    border-color:rgba(201, 197, 197, 0.411);
+    background-color: rgba(45, 44, 51, 0.678);
+    
+  }
+  
+  .location{
+     display: inline-block;
+    color: rgb(213, 213, 219);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+  }
+ 
+  .current{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .service-desc{
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width:960px) {
+    .service-box{
+      max-width: 45%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .service-box{
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .service-box{
+      max-width: 100%;
+    }
+  }
+   .location h4{
+    text-align: center;
+    font-weight: bold;
+    
+  }
+.current h4{
+  text-align: center;
+  font-weight: bold;
+}
+  
